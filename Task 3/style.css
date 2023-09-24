@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("image/cal.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #3d443f;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height:60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(197, 161, 231, 0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background-color:rgb(44, 37, 46);
+    font-size: 25px;
+    color: #cfc8c8;
+    cursor: pointer;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+   
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    color: #f5eff2;
+    box-shadow: none;
+}
+
+form input.operator{
+    color: rgb(206, 106, 148);
+}
